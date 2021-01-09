@@ -1,24 +1,25 @@
 const router = require("express").Router()
 const fs = require("fs");
-
-// const {renderActiveNote
-// } = require('../../public/assets/js/index')
+const createNewNote = require("../../lib/notes");
 const notes = require("../../db/db");
 
 router.get("/notes", (req, res) => {
     console.log(notes)
-    //  let results = notes
-    // if(req.query) {
-    //     results = renderActiveNote(req.query, results);
-    // }
-    // res.json(results)
+    let results = notes;
+  if (req.query) {
+    res.json(results);
+}
 });
 
 router.post("/notes", (req, res) => {
- 
-   notes.push(req.body)
+
+    req.body.id = notes.length.toString();
+
+    const newNote = createNewNote(req.body, notes)
+   
+   res.json(newNote)
 })
- 
+
 
 module.exports = router 
 

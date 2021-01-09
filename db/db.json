@@ -1,12 +1,17 @@
-[
-    {"title":"Test Title","text":"Test text"
-    
-    },
-
+{
+  "notes": [
     {
-        "title":"Hello", "text":"World"
+      "title": "Test Title",
+      "text": "Test text"
+    },
+    {
+      "title": "Hello",
+      "text": "World"
+    },
+    {
+      "title": "Ynakee",
+      "text": "Yankees are the best ",
+      "id": "2"
     }
-
-
-
-]
+  ]
+}
