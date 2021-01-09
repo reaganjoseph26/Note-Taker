@@ -1,17 +1,12 @@
-{
-  "notes": [
-    {
-      "title": "Test Title",
-      "text": "Test text"
-    },
-    {
-      "title": "Hello",
-      "text": "World"
-    },
-    {
-      "title": "Ynakee",
-      "text": "Yankees are the best ",
-      "id": "2"
-    }
-  ]
-}
+[
+  {
+    "title": "Messi",
+    "text": "the best ",
+    "id": "5da9be5b-4adc-4115-8228-edc8139f21df"
+  },
+  {
+    "title": "cats",
+    "text": "puppies",
+    "id": "766f5cea-289c-472c-b536-9d7ca0082819"
+  }
+]
