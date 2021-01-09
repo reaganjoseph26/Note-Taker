@@ -1,6 +1,6 @@
 const router = require("express").Router()
 const fs = require("fs");
-const createNewNote = require("../../lib/notes");
+const createNewNote, deleteNote = require("../../lib/notes");
 const notes = require("../../db/db");
 const { v4: uuidv4 } = require('uuid');
 
@@ -22,7 +22,11 @@ router.post("/notes", (req, res) => {
 })
 
 //bonus delete function
+router.delete("/notes/:id", (req, res)=> {
 
+  const note = deleteNote(req.body, notes)
+  res.send(note)
+})
 
 module.exports = router 
 
