@@ -21,6 +21,8 @@ router.post("/notes", (req, res) => {
    res.json(newNote)
 })
 
+//bonus delete function
+
 
 module.exports = router 
 
