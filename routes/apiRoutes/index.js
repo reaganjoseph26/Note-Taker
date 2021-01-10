@@ -25,15 +25,11 @@ router.post("/notes", (req, res) => {
 router.delete("/notes/:id", (req, res)=> {
  
   const id = req.params.id
-  deleteNote(id.slice())
+  const removedNote = notes.slice(id)
+  deleteNote(removedNote)
   res.sendStatus(204)
 })
 
-// router.delete("/notes/:id", (req, res) => {
-//   const id = req.params.id;
-//   // TODO: Delete our note...
-//   res.sendStatus(204);
-// });
 
 module.exports = router 
 
