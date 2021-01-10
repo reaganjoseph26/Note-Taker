@@ -5,7 +5,7 @@ const notes = require("../../db/db");
 const { v4: uuidv4 } = require('uuid');
 
 router.get("/notes", (req, res) => {
-    console.log(notes)
+   
     let results = notes;
   if (req.query) {
     res.json(results);
@@ -25,9 +25,9 @@ router.post("/notes", (req, res) => {
 router.delete("/notes/:id", (req, res)=> {
  
   const id = req.params.id
-  const removedNote = notes.slice(id)
-  deleteNote(removedNote)
-  res.sendStatus(204)
+  
+  const newNote  = deleteNote(id, notes)
+  res.json(newNote)
 })
 
 
