@@ -3,6 +3,9 @@ const fs = require("fs");
 const {createNewNote, deleteNote} = require("../../lib/notes");
 const notes = require("../../db/db");
 const { v4: uuidv4 } = require('uuid');
+const path = require("path");
+
+
 
 router.get("/notes", (req, res) => {
    
@@ -26,8 +29,11 @@ router.delete("/notes/:id", (req, res)=> {
  
   const id = req.params.id
   
-  const newNote  = deleteNote(id, notes)
+  const newNote = deleteNote(id, notes)
+  
   res.json(newNote)
+ // res.sendFile(path.join(__dirname, "../../public/index.html"))
+  
 })
 
 

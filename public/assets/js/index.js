@@ -86,7 +86,8 @@ const handleNoteDelete = (e) => {
     activeNote = {};
   }
   
-  deleteNote(noteId).then(() => {
+  deleteNote(noteId).then((deletedNote) => {
+    console.log(deletedNote)
     getAndRenderNotes();
     renderActiveNote();
   });
@@ -115,6 +116,8 @@ const handleRenderSaveBtn = () => {
 
 // Render the list of note titles
 const renderNoteList = async (notes) => {
+
+  console.log('rendering...')
   
   let jsonNotes = await notes.json();
   if (window.location.pathname === '/notes') {
