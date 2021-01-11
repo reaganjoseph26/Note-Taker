@@ -1,7 +1,7 @@
 const router = require("express").Router()
 const fs = require("fs");
 const {createNewNote, deleteNote} = require("../../lib/notes");
-const notes = require("../../db/db");
+let notes = require("../../db/db");
 const { v4: uuidv4 } = require('uuid');
 const path = require("path");
 
@@ -31,8 +31,8 @@ router.delete("/notes/:id", (req, res)=> {
   
   const newNote = deleteNote(id, notes)
   
-  res.json(newNote)
- // res.sendFile(path.join(__dirname, "../../public/index.html"))
+  // res.json(newNote)
+ res.sendFile(path.join(__dirname, "../../public/index.html"))
   
 })
 
