@@ -25,7 +25,7 @@
   ## Usage
   You will use this applicaiton keep track of any task you need to complete or even reminders for yourslef. 
   </br>
-  ![ScreenShot](../../public/images/Screenshot.jpg)
+  ![ScreenShot](../public/assets/images/Screenshot.jpg)
 
   ## Credits
   N/A
