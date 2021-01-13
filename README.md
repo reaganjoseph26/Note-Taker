@@ -3,7 +3,7 @@
   # Note-Taker 
 
   ## Description
-  Note-Taker is an application that allows the user to write, save and delete notes to keep track and/or oragnize task. 
+  Note-Taker is an application that allows the user to write, save, and delete notes to keep track and/or organize task. 
 
   ## Table of Contents
   * [Installation](#installation)
