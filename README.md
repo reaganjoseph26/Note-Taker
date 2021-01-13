@@ -26,7 +26,10 @@
   ## Usage
   You will use this applicaiton keep track of any task you need to complete or even reminders for yourself. 
   </br>
+  This is what the application looks like when running. 
+  </br>
   ![ScreenShot](./public/assets/images/Screenshot.jpg)
+
 
   ## Credits
   N/A
@@ -45,4 +48,5 @@
   If you have any additional questions, please reach out to me. 
   You can reachout to me at my GitHub profile, which is [reaganjoseph26](https://github.com/reaganjoseph26).
   Also, you can reach out to me by email. My email address is reaganjoseph26@yahoo.com. 
+  Deployed Link: 
   
