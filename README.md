@@ -48,5 +48,6 @@
   If you have any additional questions, please reach out to me. 
   You can reachout to me at my GitHub profile, which is [reaganjoseph26](https://github.com/reaganjoseph26).
   Also, you can reach out to me by email. My email address is reaganjoseph26@yahoo.com. 
-  Deployed Link: 
+  </br>
+  Deployed Link: https://notes-taker24.herokuapp.com/
   
