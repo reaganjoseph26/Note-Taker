@@ -20,13 +20,13 @@
   2. clone down this repository 
   3. make sure you have npm installed using the command: npm install. 
   4. Install express.js using the command: npm install express --save 
-  5. To run the application on your local server, run the command: npm start and open up http://localhost:3001 in your browser. See heroku documention and site to see how you can deploy this server application on their site. (https://heroku.com).
+  5. To run the application on your local server, run the command: npm start and open up http://localhost:3001 in your browser. See heroku site for their documentation to see how you can deploy this server application on their site. (https://heroku.com).
   
 
   ## Usage
   You will use this applicaiton keep track of any task you need to complete or even reminders for yourself. 
   </br>
-  ![ScreenShot](././public/assets/images/Screenshot.jpg)
+  ![ScreenShot](/public/assets/images/Screenshot.jpg)
 
   ## Credits
   N/A
