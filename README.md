@@ -37,7 +37,6 @@
   ## License
   This licence is covered undered (https://opensource.org/licenses/MIT).
   
-
   ## Contributing 
   Currently no credits are applicable for this project
 
@@ -50,4 +49,5 @@
   Also, you can reach out to me by email. My email address is reaganjoseph26@yahoo.com. 
   </br>
   Deployed Link: https://notes-taker24.herokuapp.com/
+
   
